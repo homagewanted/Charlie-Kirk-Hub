@@ -30329,11 +30329,11 @@ local renderStepped = Signal.new(runService.RenderStepped)
 local menuMaid = Maid.new()
 
 -- Constants.
-local MENU_TITLE = "AP Central | Deepwoken"
+local MENU_TITLE = "Charlie Kirk Hub | Deepwoken"
 
 if LRM_UserNote then
 	MENU_TITLE = string.format(
-		"AP Central | Deepwoken",
+		"Charlie Kirk Hub | Deepwoken",
 		string.sub("6c10af8d79e3dc253ba6db7f343613361c37e378", 1, 6)
 	)
 end
